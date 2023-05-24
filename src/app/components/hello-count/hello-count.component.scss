@@ -1,0 +1,16 @@
+.count-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cc00ff; /* Replace with your desired color */
+    font-weight: bold;
+    color: #ffffff; /* Replace with your desired color */
+}

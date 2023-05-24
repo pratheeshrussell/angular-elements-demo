@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Elements</title>
+    
+</head>
+<body>
+    <hello-world title="Pratheesh"></hello-world>
+    <hello-count></hello-count>
+
+    <script type="text/javascript" src="hello-world.js"></script>
+    <script>
+        // Adding event listener
+        const helloComponent = document.getElementsByTagName("hello-world")[0];
+        helloComponent.addEventListener("title-clicked", ()=>{
+            console.log('clicked');
+        });
+    </script>
+</body>
+</html>
